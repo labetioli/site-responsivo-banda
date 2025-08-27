@@ -75,10 +75,11 @@ nav {
 
 /* começo membros */
 .membros {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     justify-content: center;
     align-items: flex-start;
-    gap: 150px;
+    gap: 30px;
     flex-wrap: wrap;
     margin-top: 100px;
     background-color: #7a1515;
@@ -202,5 +203,30 @@ nav {
 }
 
 /* video-clipe fim */
+
+/* rodapé inicio */
+.rodape {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 14px;
+}
+
+.redes-sociais {
+    margin-bottom: 10px;
+
+    a {
+        color: #fff;
+        margin: 0 10px;
+        font-size: 24px;
+        transition: color 0.3s;
+
+        &:hover {
+            color: #5f0606;
+        }
+    }
+
+}
 
 
