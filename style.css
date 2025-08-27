@@ -33,5 +33,44 @@ nav {
     }
 }
 
+/* começo hero */
+.hero {
+    width: 100%;
+    height: 95vh;
+    overflow: hidden;
+
+    video {
+        width: 100%;
+        position: absolute;
+        z-index: 1;
+    }
+}
+
+.conteudo-hero {
+
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    position: relative;
+
+
+}
+
+.texto-hero {
+
+    max-width: 600px;
+    padding: 16px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    position: relative;
+    z-index: 2;
+
+}
+
+/* fim hero */
 
 
